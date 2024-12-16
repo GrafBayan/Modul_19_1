@@ -62,8 +62,7 @@ def sign_up_by_django(request):
     return render(request, 'fourth_task/registration_page.html', context)
 def main(request):
     title = 'Онлайн магазин настолок'
-    text1 = ('Мы любим вас и ненавидим, как друзей, покупайте же у нас настолки для себя и своих друзей (с нами '
-             'поиграть тоже можно)')
+    text1 = ('Добро пожаловать в магазин настольных игр по популярным играм с компьютера, мы скопировали их, и даже их возростной рейтинг')
     context = {
         'title': title,
         'text1': text1,
